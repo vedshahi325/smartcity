@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      body {
+        background-image: url('./ASSETS/marc-olivier-jodoin-NqOInJ-ttqM-unsplash.jpg');
+        background-size: cover;
+        
+      }
+        /* Center the div */
+        .form-container {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          height: 500px;
+          width: 600px;
+          background-color: black;
+          color: white;
+          padding: 20px;
+        }
+    
+        /* Form input and button styles */
+        .form-container input, .form-container button {
+          width: 100%;
+          margin-bottom: 10px;
+          padding: 10px;
+          border: none;
+        }
+    
+        .form-container input[type="text"], .form-container input[type="email"] {
+          background-color: white;
+          color: black;
+        }
+    
+        .form-container button {
+          background-color: red;
+          color: white;
+          cursor: pointer;
+        }
+    
+        /* Contact details styles */
+        .contact-details {
+          text-align: center;
+          margin-top:50px;
+        }
+    
+        .contact-details p {
+          color: red;
+        }
+      </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav-wrap">
+        <div class="nav">
+            <div class="nav-cont">
+                <div class="icon">
+                    <h1>SMARTCITY</h1>
+                </div>
+                <div class="line"></div>
+                <nav>
+                    <ul>
+                        <li><a href="./#home">Home</a></li>
+                        <li><a href="./#types">Stats</a></li>
+                        <li><a href="./#benifits">Components</a></li>
+                        <li><a href="./#tools">Tools</a></li>
+                    </ul>
+                </nav>
+                <div class="line"></div>
+                <div class="about">
+                    <a href="#">About us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-wrap">
+        <div class="form-container">
+            <h2>Contact Form</h2>
+            <form>
+              <input type="text" placeholder="Name" required>
+              <input type="email" placeholder="Email" required>
+              <input type="query" placeholder="Query" required>
+              <button type="submit">Submit</button>
+            </form>
+            <div class="contact-details">
+              <h3>Contact Details</h3>
+              <p>Phone Number: +1 123-456-7890</p>
+              <p>Email: example@example.com</p>
+              <p>Address: 123 Main Street, City, State, Zip Code</p>
+            </div>
+          </div>
+    </div>
+
+    <div class="footer-wrap">
+      <footer>
+          <div class="footer-cont">
+              <p><a href="./contact.html" style="color: white;">contact us</a></p>
+              <p>a project on <span>Smart City</span> website</p>
+          </div>
+      </footer>
+  </div>
+</body>
+</html>
